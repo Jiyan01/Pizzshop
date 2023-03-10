@@ -1,5 +1,18 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+
+Welcome to my [THP](https://www.thehackingproject.org) final project: A pizza delivery site
+
+### ✅ - Features
+
+in progess
+
+
+### 👨‍💻 - Authors Details 
+
+ [@Jiyan01 🥷](https://github.com/Jiyan01)
+
+
 ## Getting Started
 
 First, run the development server:
