@@ -13,7 +13,7 @@
 
 .right {
   flex: 1;
-  padding: 40px;
+  padding: 20px;
 }
 
 .imgContainer {
@@ -40,7 +40,6 @@
   height: 30px;
   position: relative;
   cursor: pointer;
-  margin-bottom: 10px;
 }
 
 .size:nth-child(2) {
@@ -62,17 +61,6 @@
   font-size: 12px;
   padding: 0 5px;
   border-radius: 10px;
-}
-
-.title {
-  margin-bottom: 10px
-}
-
-.right p {
-  margin-bottom: 10px;
-}
-.right h3{
-  margin-bottom: 10px;
 }
 
 .ingredients {
@@ -101,33 +89,31 @@
 .button {
   height: 30px;
   margin-left: 10px;
-  padding: 10px;
   background-color: #d1411e;
   color: white;
   border: none;
-  border-radius: 10px;
   font-weight: 500;
   cursor: pointer;
 }
 
 @media screen and (max-width: 480px) {
-  .container{
+  .container {
     height: auto;
     text-align: center;
     flex-direction: column;
     margin-top: 20px;
   }
 
-  .imgContainer{
+  .imgContainer {
     width: 70vw;
     height: 70vw;
   }
 
-  .title{
+  .title {
     margin: 5px;
   }
 
-  .sizes{
+  .sizes {
     width: 100%;
     padding: 0px 20px;
   }
@@ -141,12 +127,13 @@
     font-size: 18px;
   }
 
-  .checkbox{
+  .checkbox {
     width: 25px;
     height: 25px;
   }
 
-  .quantity, .button {
+  .quantity,
+  .button {
     height: 50px;
     padding: 10px 20px;
   }
