@@ -1,13 +1,16 @@
 import Image from "next/image";
-import styles from '../styles/PizzaCard.module.css'
+import styles from '../styles/PizzaCard.module.css';
+import Link from "next/link"
 
-function PizzaCard() {
+function PizzaCard({pizza}) {
   return (
     <div className={styles.container}>
-      <Image src="/img/pizza.png" alt="" width="100" height="100"></Image>
-      <h1 className={styles.title}>CHEVRE MIEL</h1>
-      <span className={styles.price}>€19.90</span>
-      <p className={styles.desc}>Lorem ipsum dolor sit amet consectetur</p>
+      <Link href={`/product/${pizza._id}`} passHref>
+         <Image src={pizza.img} alt="" width="100" height="100"></Image>
+      </Link>
+      <h1 className={styles.title}>{pizza.title}</h1>
+      <span className={styles.price}>€{pizza.prices[0]}</span>
+      <p className={styles.desc}>{pizza.desc}</p>
     </div>
   );
 };
