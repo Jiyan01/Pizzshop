@@ -20,11 +20,11 @@
 }
 
 @media screen and (max-width: 480px) {
-  .title{
+  .title {
     text-align: center;
   }
 
-  .desc{
+  .desc {
     width: 90%;
     text-align: center;
   }
